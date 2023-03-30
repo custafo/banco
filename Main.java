@@ -53,6 +53,7 @@ public class Main{
                 System.out.println("It's not an option, please insert it again.");
                     break;
             }
+            in.close();
         } 
     }
     public static Week returnWeekDayByString(String value){
