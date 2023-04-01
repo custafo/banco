@@ -1,12 +1,22 @@
-public class Account {
+public class ContaBancaria {
     private String number;
     private double amount;
+    private String clientName;
 
-    public Account(String number, double amount){
+    public ContaBancaria(String clientName ,String number, double amount){
+        this.clientName = clientName;
         this.number = number;
         this.amount = amount;
     }
 
+    public String getClientName(){
+        return clientName;
+    }
+
+    public void setClientName(String clientName) {
+        this.clientName = clientName;
+    }
+    
     public double getAmount() {
         return amount;
     }

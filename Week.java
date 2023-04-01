@@ -1,11 +1,11 @@
     public enum Week{
-		DOMINGO(0.6f),
-		SEGUNDA(1f),
-		TERÇA(1f),
-		QUARTA(1f),
-		QUINTA(1f),
-		SEXTA(1f),
-		SABADO(0.8f),;
+		DOMINGO(1.2f),
+		SEGUNDA(1.8f),
+		TERÇA(1.5f),
+		QUARTA(1.5f),
+		QUINTA(1.5f),
+		SEXTA(1.5f),
+		SABADO(1.2f),;
     
     private float multiplier;
 
